@@ -1,0 +1,11 @@
+//
+// Prefix header for all source files of the 'LLPageScroller' target in the 'LLPageScroller' project
+//
+
+#ifdef __OBJC__
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
+
+#endif
