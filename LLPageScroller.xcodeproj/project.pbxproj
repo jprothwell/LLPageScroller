@@ -6,6 +6,20 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		A321BF33143DAE52008EF3A2 /* GenDocs */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A321BF34143DAE52008EF3A2 /* Build configuration list for PBXAggregateTarget "GenDocs" */;
+			buildPhases = (
+				A321BF38143DAE58008EF3A2 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = GenDocs;
+			productName = GenDocs;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		A30110AF13DF5D7600B4886C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30110AE13DF5D7600B4886C /* Foundation.framework */; };
 		A30110BC13DF5D8E00B4886C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30110BB13DF5D8E00B4886C /* QuartzCore.framework */; };
@@ -132,7 +146,6 @@
 				A30110A713DF5D7600B4886C /* Sources */,
 				A30110A813DF5D7600B4886C /* Frameworks */,
 				A30110A913DF5D7600B4886C /* Headers */,
-				A3F64A32143A1138009CF45C /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -171,6 +184,7 @@
 			projectRoot = "";
 			targets = (
 				A30110AA13DF5D7600B4886C /* LLPageScroller */,
+				A321BF33143DAE52008EF3A2 /* GenDocs */,
 			);
 		};
 /* End PBXProject section */
@@ -186,7 +200,7 @@
 /* End PBXReferenceProxy section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		A3F64A32143A1138009CF45C /* ShellScript */ = {
+		A321BF38143DAE58008EF3A2 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -285,6 +299,27 @@
 			};
 			name = Release;
 		};
+		A321BF35143DAE52008EF3A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A321BF36143DAE52008EF3A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A321BF37143DAE52008EF3A2 /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = "Ad Hoc";
+		};
 		A3D32112140A32DF0048BEC1 /* Ad Hoc */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -336,6 +371,16 @@
 				A30110B913DF5D7600B4886C /* Debug */,
 				A30110BA13DF5D7600B4886C /* Release */,
 				A3D32113140A32DF0048BEC1 /* Ad Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A321BF34143DAE52008EF3A2 /* Build configuration list for PBXAggregateTarget "GenDocs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A321BF35143DAE52008EF3A2 /* Debug */,
+				A321BF36143DAE52008EF3A2 /* Release */,
+				A321BF37143DAE52008EF3A2 /* Ad Hoc */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
